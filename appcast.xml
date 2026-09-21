@@ -9,18 +9,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:version>30</sparkle:version>
             <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# 自动化点击助手 2.10.0 最终候选说明
+            <description sparkle:format="markdown"><![CDATA[# 自动化点击助手 2.10.0
 
 - 集成 Sparkle 2.10.0 一键更新能力。
-- 主窗口显示当前版本并提供唯一“检查更新”入口。
-- 更新流程与连续运行、单轮执行、台子管理、游戏窗口绑定双向互斥。
-- 启动时不自动检查更新，不请求自动更新许可。
-- 本文件仅用于 02F 最终候选的本地正式签名 appcast 验证；本轮不发布公网 feed 或 GitHub Release。
+- 主窗口显示当前版本并提供“检查更新”入口。
+- 更新流程与运行流程双向互斥。
+- 启动时不自动检查更新。
+- Mac 2.9 升级到 2.10 需要首次手动安装；从 2.10 开始支持后续版本一键更新。
 ]]></description>
             <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v2.10.0/automation-click-assistant-mac-2.10.0.dmg" length="5442620" type="application/octet-stream" sparkle:edSignature="ndkS4H6Z04WzSlmphZU3ZpSmta66KlxHqYSRPAu4txCXcbYpBvdlAuYSQ74OgAvijCFuC+/eMLV1W3Y610M7DA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Yue0nRtr8C1siCd9yeK0F5SgMtoxBWi8m9UR0sTHfrvppcf+/M4CkUWEBamGuP/k11GmCJIqSv7xbMmmkoa2Cg==
-length: 1644
+edSignature: HpX6gW4kVH99Z53wQsFaEYriRKqvc8Zs9moB+uqoGEyeDENxAuHZXXOTKsajfRHGCA70A5a4YvvKX86CzyewDA==
+length: 1514
 -->
