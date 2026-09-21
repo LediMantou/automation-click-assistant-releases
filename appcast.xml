@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>自动化点击助手-Sparkle实验</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 21 Sep 2026 09:33:43 +0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/sparkle-exp-0.4.0/B.dmg" length="5442547" type="application/octet-stream" sparkle:edSignature="3/ffHnehnizjLnRj571r053To2KK7uLIElyz72cTzXhbCRjdA9s0O9kNc9y0RxnIAscywy0ex67VwDoePv81Dw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: aSnmy8aFczItR2yq8QSqr7x6iaPqacEo4AxFWWaQJoHh8Z7gcZxJ2yvO+8x4POskHvj14+B8iMzCiOk7ej4YDA==
+length: 1095
+-->
