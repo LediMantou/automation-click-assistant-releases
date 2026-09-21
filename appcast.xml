@@ -4,23 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>自动化点击助手</title>
         <item>
-            <title>2.10.0</title>
-            <pubDate>Mon, 21 Sep 2026 11:00:04 +0700</pubDate>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <title>2.11.0</title>
+            <pubDate>Mon, 21 Sep 2026 15:17:18 +0700</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# 自动化点击助手 2.10.0
+            <description sparkle:format="markdown"><![CDATA[# 自动化点击助手 2.11.0
 
-- 集成 Sparkle 2.10.0 一键更新能力。
-- 主窗口显示当前版本并提供“检查更新”入口。
-- 更新流程与运行流程双向互斥。
-- 启动时不自动检查更新。
-- Mac 2.9 升级到 2.10 需要首次手动安装；从 2.10 开始支持后续版本一键更新。
+- 新增本地固定启动密码门。
+- App 启动时先显示密码页，验证成功后才创建正式业务对象并进入主界面。
+- 完全退出 App 后再次启动，需要重新输入启动密码。
 ]]></description>
-            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v2.10.0/automation-click-assistant-mac-2.10.0.dmg" length="5442620" type="application/octet-stream" sparkle:edSignature="ndkS4H6Z04WzSlmphZU3ZpSmta66KlxHqYSRPAu4txCXcbYpBvdlAuYSQ74OgAvijCFuC+/eMLV1W3Y610M7DA=="></enclosure>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v2.11.0/automation-click-assistant-mac-2.11.0.dmg" length="5475971" type="application/octet-stream" sparkle:edSignature="iweOumsMsM+nDBs2G2rG34f+zB5/ZgaUeXDESEFVw+wvCyxLr/8WzKflFzYTTXVmYHnWXDI01ZdBP9gpCo1zDw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: HpX6gW4kVH99Z53wQsFaEYriRKqvc8Zs9moB+uqoGEyeDENxAuHZXXOTKsajfRHGCA70A5a4YvvKX86CzyewDA==
-length: 1514
+edSignature: D5FMqKQMKPU3u+xvl1SmbDR+YvC+arJ+IdQAtfWJP6tf8K/1Dw/x+ACH2ReI2Ar5zkgP9Ud7QMRysgSUl14VCg==
+length: 1430
 -->
