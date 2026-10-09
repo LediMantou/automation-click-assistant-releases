@@ -6,6 +6,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>自动化点击助手</title>
         <item>
+            <title>2.11.4</title>
+            <pubDate>Fri, 09 Oct 2026 17:45:18 +0700</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>2.11.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- 修复 PP 当前 selected 完整 class token `bfg_bfo` 兼容。
+- 保留旧七项、完整 token 精确匹配及既有 fail-close 安全门禁。
+]]></description>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v2.11.4/automation-click-assistant-mac-2.11.4.dmg" length="5479343" type="application/octet-stream" sparkle:edSignature="4eA2AX2R0hk2B4+AcimU4OtV1lG34UyriOstglRfCYCZeo9Di6WG9axT2s2BZvkg07OuyHqPg8aVgNXwKTcXDg=="/>
+        </item>
+        <item>
             <title>2.11.3</title>
             <pubDate>Wed, 07 Oct 2026 22:41:40 +0700</pubDate>
             <sparkle:version>34</sparkle:version>
@@ -43,6 +54,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4DUHWgXrF5kUtg1d1c/ZnrkZX+hHfhAqRL8gIOWbJfo2Bs9HQdTee5dZLw7qd+Tn7k/LFx5I4dEWem1bdtReCg==
-length: 3152
+edSignature: Q2i2dHcQN20Nj62IDTbmDPmMGaYIHhoBqSPHj1xKTK2BwpmPjuwSZ+V+OadLy+BlVyYl4+TYMaCxXCIXYs4CCQ==
+length: 4036
 -->
