@@ -6,6 +6,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>自动化点击助手</title>
         <item>
+            <title>2.12.5</title>
+            <pubDate>Wed, 14 Oct 2026 19:12:02 +0700</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>2.12.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- 修复见闲递进、见庄递进实际下注开和后错误等待：档位、金额、方向不变，下一可靠开盘续投，和局不计有效局。
+- 等待目标期间的和局仍继续等待；原安全门禁保持。
+- 精简绑定与开始确认弹窗，绿色成功提示统一为“8档策略配置有效。”。
+]]></description>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v2.12.5/automation-click-assistant-mac-2.12.5.dmg" length="5477822" type="application/octet-stream" sparkle:edSignature="qMOaoH4D/wavnKJ807fL/P/gAoYioqXN0f4/QRRLWMKisP0SNebeMMFEc/el8k4DeQ5ww6TjxT3UTlBGLz+hCQ=="/>
+        </item>
+        <item>
             <title>2.12.4</title>
             <pubDate>Wed, 14 Oct 2026 02:53:22 +0700</pubDate>
             <sparkle:version>36</sparkle:version>
@@ -66,6 +78,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: abHtlYREVdmf2qNqslX167GG0heqH/JAXH/aV398SfEtCQbqSUURV36RGcd5Uj5lCvx8ldDpFJqZIqBXpZq6CQ==
-length: 5166
+edSignature: sNAEY/WGCczCbQPReDKCxhhN8GngkgF/Jh9lscYOhsjCLx7t63lmBnDe7oN00WxUnn5EnZ2nBR8cCjqCVoemBw==
+length: 6229
 -->
