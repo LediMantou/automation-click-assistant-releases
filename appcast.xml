@@ -6,6 +6,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>自动化点击助手</title>
         <item>
+            <title>3.0.0</title>
+            <pubDate>Sat, 17 Oct 2026 21:33:06 +0700</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mac 3.0.0 / build 38
+
+### 本版更新
+- 新版蓝紫色 SwiftUI 界面，运行配置集中在主界面。
+- 台子、初始金额、四种策略、金额方案、L1—L8 金额及游戏窗口绑定入口可直接查看。
+- 采用设备在线授权；首次启动需要六位启动密码，首次启用在线授权需要有效卡密。
+- 保留原生 Keychain 重新授权：更新后如提示权限受阻，请由本人完成 macOS 原生确认，继续使用原设备身份，无需重新发卡或重建密钥。
+- 保留 Sparkle 手动“检查更新”和有效更新包签名校验。
+- 移除固定阶梯，仅保留“倍投 n×2+n”；八档金额随初始金额实时计算。
+- 主界面不再显示独立“安全停止”按钮。离开已绑定游戏窗口、窗口变化、授权异常、30 局上限及 L8 Loss 等原有保护仍保留；停止后不会自动恢复任务。
+- Telegram 普通运行通知继续使用原配置入口。
+
+### 从 2.12.5 升级前请确认
+2.12.5 没有 3.0 的新版在线设备授权。首次升级用户需要取得六位启动密码及有效卡密，并完成首次激活；**升级本身不会自动授予 3.0 使用权限**。请通过原有发卡渠道获取所需材料。
+
+原 `configuration-v2.json` 的台子和筹码继续兼容。旧配置没有记录金额方案，或保存了已停用／未知方案时，需要核对八档金额并明确确认当前倍投方案；确认前不能开始运行。不会自动恢复旧游戏窗口绑定或旧运行任务，请人工重新绑定并确认参数。
+
+### 系统与首次运行
+支持 macOS 13.0 及以上，Universal：Apple Silicon arm64 + Intel x86_64。
+
+本版本采用普通 Ad Hoc 签名，没有 Apple Developer ID 或 Apple 公证。首次从网上下载可能触发 macOS 安全提示；请核对来源，并由本人按 [Apple 官方的原生安全确认说明](https://support.apple.com/en-us/102445) 操作。更新包的 Sparkle Ed25519 校验不等同于 Apple 公证。本项目不提供关闭 Gatekeeper 或清除安全标记的操作。
+
+本次直接发布已真人验收的同一份 App，没有再次编译或重新签名。
+]]></description>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v3.0.0/automation-click-assistant-mac-3.0.0.dmg" length="6232914" type="application/octet-stream" sparkle:edSignature="Q5X/TldRhUqaDa86c3vwOtNCBgXaA0cYFLX4xkLQx0soWvGjxHZOc8O0OeN1xdutY70hkeGx1xT/FeA6pf5vCg=="/>
+        </item>
+        <item>
             <title>2.12.5</title>
             <pubDate>Wed, 14 Oct 2026 19:12:02 +0700</pubDate>
             <sparkle:version>37</sparkle:version>
@@ -78,6 +110,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: sNAEY/WGCczCbQPReDKCxhhN8GngkgF/Jh9lscYOhsjCLx7t63lmBnDe7oN00WxUnn5EnZ2nBR8cCjqCVoemBw==
-length: 6229
+edSignature: epr5x5D7iDDjmoP3LAzue2K2GKBX/KX+msNzGSsw4DO/Sd0BGst3ySgdKiVzFpNj8nT71u63dGwCnzmWyrZcCQ==
+length: 9116
 -->
