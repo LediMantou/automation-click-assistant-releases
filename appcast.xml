@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>自动化点击助手</title>
         <item>
+            <title>3.1.0</title>
+            <link>https://github.com/LediMantou/automation-click-assistant-releases/releases/tag/v3.1.0</link>
+            <pubDate>Tue, 20 Oct 2026 11:19:03 +0000</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mac 3.1.0 / build 39
+
+- 新增原设备自助续期：授权到期后，在 App 输入新购、未使用的卡密。
+- 保留原设备编号、序列号绑定、原 Keychain/P-256 身份、配置及 Chrome Profile；新卡只能消费一次。
+- 续期由服务器验证原设备身份、签名和卡密；成功后不会自动运行，仍须人工开始。
+- 保持四种策略、30 有效局上限、动态筹码与点击流程，保留首次激活、六位启动密码、重新在线验证和管理员续期。
+- 本次采用方案 A，安装名称继续为“自动化点击助手.app”，Bundle ID、T 更新公钥和通道不变；不实施 App 更名。
+
+Universal arm64 + x86_64，macOS 13.0 及以上；沿用普通 Ad Hoc 签名。功能代码源自已真人验收续期候选；本次仅作正式版本元数据、build-id、密封资源绑定和重新签名。真实跨版本安装本轮未运行（NOT_RUN）。
+]]></description>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v3.1.0/automation-click-assistant-mac-3.1.0.dmg" length="6267322" type="application/octet-stream" sparkle:edSignature="74ZRQzwiJ9vzPeJ86VXWVrIKbf7Ys1XtXC63tCpnFC1TzQaX9YrmPGkBaXpc/4Otk26U6yeiLbgdvboLgQqJBA=="/>
+        </item>
+        <item>
             <title>3.0.0</title>
             <pubDate>Sat, 17 Oct 2026 21:33:06 +0700</pubDate>
             <sparkle:version>38</sparkle:version>
@@ -110,6 +129,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: epr5x5D7iDDjmoP3LAzue2K2GKBX/KX+msNzGSsw4DO/Sd0BGst3ySgdKiVzFpNj8nT71u63dGwCnzmWyrZcCQ==
-length: 9116
+edSignature: HZlhaz4uGPPNI0q3NWK9qIKYcHcPgcUTW/kxa9V3orFUu/SKfoAU/ajaC/OrxXMAEO4c8cgIL6TXosLfNs+KDA==
+length: 10887
 -->
