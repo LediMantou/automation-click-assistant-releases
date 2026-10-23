@@ -1,3 +1,19 @@
+## 当前正式补丁：3.2.1 / build 41
+
+[正式 Release](https://github.com/LediMantou/automation-click-assistant-releases/releases/tag/v3.2.1) · [下载 DMG](https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v3.2.1/automation-click-assistant-mac-3.2.1.dmg)。
+PP selected exact-token 新增 bhg_bho，并增加禁用 selected 的 fail-closed 保护；旧白名单、唯一性、金额匹配及点击前后确认保留。其他业务与更新身份不变，不强制更新。
+定向离线 DOM 96 项、Swift policy 103 断言、fake clicker 11 场景通过；Universal、原密码资源封装、Ad Hoc、匿名整包及签名 Feed 回读通过。
+本次由乐迪批准基于静态证据发布，不把合成可操作筹码测试当成真实 PP 动态验收。
+
+SELECTED_BHG_BHO_STATIC_DOM=OBSERVED
+SELECTED_BHG_BHO_DYNAMIC_REAL_PP=NOT_RUN
+REAL_PP_BET_CLICK=NOT_RUN
+REAL_CROSS_VERSION_SPARKLE_INSTALL=NOT_RUN
+
+DMG SHA256：`0d12a2cff19cdae8e312e69ceb6df83d08fdfad9a38f51d5c153a33022b0c9c6`。
+
+---
+
 ## 自动化点击助手 3.2.0 / build 40（2026-10-24）
 
 [正式 Release](https://github.com/LediMantou/automation-click-assistant-releases/releases/tag/v3.2.0) · [DMG 下载](https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v3.2.0/automation-click-assistant-mac-3.2.0.dmg) · [独立签名更新 Feed](https://raw.githubusercontent.com/LediMantou/automation-click-assistant-releases/main/appcast.xml)。
