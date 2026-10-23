@@ -1,3 +1,13 @@
+## 自动化点击助手 3.2.0 / build 40（2026-10-24）
+
+[正式 Release](https://github.com/LediMantou/automation-click-assistant-releases/releases/tag/v3.2.0) · [DMG 下载](https://github.com/LediMantou/automation-click-assistant-releases/releases/download/v3.2.0/automation-click-assistant-mac-3.2.0.dmg) · [独立签名更新 Feed](https://raw.githubusercontent.com/LediMantou/automation-click-assistant-releases/main/appcast.xml)。
+最终 App 五项真人验收由乐迪确认 5/5 PASS；冻结 DMG 匿名完整下载及 SHA256、包内容/签名核验通过。
+远程诊断服务端已上线，客户端诊断默认关闭，仅用户知情并明确启用后上报。真实故障诊断送达及真实跨版本 Sparkle 安装仍 NOT_RUN。
+DMG SHA256：`df75018ecdc34c8734187b7992bff0a8ca571e5dba6224bf3ff58eb6c75a1a5b`。Universal arm64 + x86_64、普通 Ad Hoc，非 Apple Developer ID 公证。原授权、策略、点击与安全停止规则保持。
+下方历史版本记录完整保留。
+
+---
+
 ## T 当前正式版本：3.1.0 / build 39（方案 A）
 
 自助续期正式发布，App 名称继续为 **自动化点击助手.app**；不实施 T 更名。四种策略、30 有效局、Bundle ID、Keychain/P-256、配置/Profile 和原 T 更新通道保持。
